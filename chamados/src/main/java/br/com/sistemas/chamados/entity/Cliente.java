@@ -21,8 +21,7 @@ public class Cliente {
     private String telefone;
 
 
-    public Cliente(Long id, String nome, String email, String telefone) {
-        this.id = id;
+    public Cliente(String nome, String email, String telefone) {
         this.nome = nome;
         this.email = email;
         this.telefone = telefone;
